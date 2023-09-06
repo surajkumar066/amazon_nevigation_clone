@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navigation {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.amazon-logo {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    border-bottom: 1.4px solid transparent;
+}
+
+.border:hover {
+    border-bottom: 1.4px solid white;
+}
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+p {
+    font-size: small;
+}
+
+.location-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.taxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 600px;
+}
+
+.icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 172, 22);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.returns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* for second line */
+.box2 {
+    width: 100vw;
+    height: 39px;
+    background-color: #1f271f;
+    display: flex;
+    
+}
+
+.header {
+    width: 900px;
+    height: 39px;
+    background: #1f271f;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;    align-items: center;
+    margin-right: 150px;
+}
+
+.manu {
+    display: flex;
+}
+.join-logo{
+    display: flex;
+    
+}
